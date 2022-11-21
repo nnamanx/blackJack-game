@@ -1,0 +1,57 @@
+/* General CSS*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/* CSS Code */
+body {
+  height: 100vh;
+  background: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+h1 {
+  color: goldenrod;
+  margin-bottom: 25px;
+}
+
+p {
+  margin-bottom: 25px;
+}
+#message-el {
+  font-style: italic;
+}
+
+button {
+  color: #016f32;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 250px;
+  background-color: goldenrod;
+  padding: 15px 0;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-color: #fff;
+  margin-bottom: 15px;
+}
+
+button:hover {
+  cursor: pointer;
+  color: #fff;
+}
